@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha256-aAr2Zpq8MZ+YA/D6JtRD3xtrwpEz2IqOS+pWD/7XKIw=" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="text-center display-3">Expressions régulières</h2>
+        <hr>
+        <form id="formulaire">
+            <div class="form-group">
+                <label for="pseudo">Pseudo</label>
+                <input type="text" class="form-control" id="pseudo" placeholder="Destroyer9">
+                <p class="d-none text-danger" id="p1">Pseudo invalide</p>
+
+            </div>
+            <div class="form-group">
+                <label for="tel">Téléphone</label>
+                <input type="text" class="form-control" id="tel" placeholder="0612345678">
+                <p class="d-none text-danger" id="p2">Téléphone invalide</p>
+
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="florentlhelias@gmail.com">
+                <p class="d-none text-danger" id="p3">Email invalide</p>
+
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
